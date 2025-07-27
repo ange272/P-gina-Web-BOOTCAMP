@@ -1,0 +1,60 @@
+/* Fondo general */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #200f44, #8e2de2);
+}
+
+/* PROGRAMACION CSS HEADER TOTAL TODAS PÁGINAS */
+.class-header {
+  padding: 20px 40px;
+  color: white;
+  background: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.class-header.scrolled {
+  background-color: white;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+}
+
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+
+.nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* PROGRAMACIÓN TABLAS  */
+/* PROGRAMACIÓN UNIDAD 1  */
